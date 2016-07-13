@@ -29,7 +29,7 @@
         android:src="@drawable/annoyed"
         android:layout_centerVertical="true"
         android:layout_alignStart="@+id/sadImg"
-        android:onClick="OnClick1"/>
+        android:onClick="onClick1"/>
 
     <ImageButton
         android:layout_width="wrap_content"
