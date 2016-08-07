@@ -19,10 +19,7 @@
         </activity>
         <activity android:name=".annoyed_story" />
         <activity android:name=".angry_story" />
-        <activity
-            android:name=".sad_story"
-            android:label="@string/title_activity_sad_story"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".sad_story"></activity>
     </application>
 
 </manifest>
