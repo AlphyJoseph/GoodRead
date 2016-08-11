@@ -25,25 +25,34 @@ public class MainActivity extends AppCompatActivity {
        // myTextView.setTypeface(myTypeface);
 
         annoyedImgButton=(ImageButton)findViewById(R.id.annoyedImg);
-        sadImgButton=(ImageButton)findViewById(R.id.sadImg);
-        angryImgButton=(ImageButton)findViewById(R.id.angryImg);
+        annoyedImgButton.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                Intent annoy= new Intent(MainActivity.this,annoyed_story.class);
+                startActivity(annoy);
+            }
+        });
+        sadImgButton=(ImageButton)findViewById(R.id.sadImg);
+        sadImgButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent annoy= new Intent(MainActivity.this,sad_story.class);
+                startActivity(annoy);
+            }
+        });
+        angryImgButton=(ImageButton)findViewById(R.id.angryImg);
+        angryImgButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent annoy= new Intent(MainActivity.this,angry_story.class);
+                startActivity(annoy);
+            }
+        });
 
         //angryImgButton= DialogInterface.OnClickListener(View OnClicklist)
     }
-    public void onClick1(View view)
-    {
-        Intent annoy= new Intent(this,annoyed_story.class);
-        startActivity(annoy);
-    }
-    public void onClick3(View view)
-    {
-        Intent angry=new Intent(this,angry_story.class);
-        startActivity(angry);
-    }
-    public void onClick2(View view)
-    {
-        Intent sad=new Intent(this,sad_story.class);
-        startActivity(sad);
-    }
+
 }

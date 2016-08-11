@@ -28,8 +28,7 @@
         android:id="@+id/annoyedImg"
         android:src="@drawable/annoyed"
         android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/sadImg"
-        android:onClick="onClick1"/>
+        android:layout_alignStart="@+id/sadImg"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -38,8 +37,7 @@
         android:src="@drawable/sad"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="108dp"
-        android:onClick="onClick2"/>
+        android:layout_marginBottom="108dp"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -48,7 +46,6 @@
         android:layout_marginTop="42dp"
         android:src="@drawable/angry"
         android:layout_below="@+id/text1"
-        android:layout_alignEnd="@+id/annoyedImg"
-        android:onClick="onClick3"/>
+        android:layout_alignEnd="@+id/annoyedImg"/>
 
 </RelativeLayout>
