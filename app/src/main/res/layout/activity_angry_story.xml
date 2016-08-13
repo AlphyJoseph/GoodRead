@@ -10,4 +10,16 @@
     android:background="#F7E0C1"
     tools:context="com.example.admin.goodread.angry_story">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Well, what happend?"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:typeface="serif"
+        android:textColor="#ff0000"/>
+
 </RelativeLayout>
