@@ -7,19 +7,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#F7E0C1"
-    tools:context="com.example.admin.goodread.angry_story">
+    android:background="#FAFAFA"
+    tools:context="com.example.admin.goodread.angry_story"
+    android:id="@+id/angrylist">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Well, what happend?"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:typeface="serif"
-        android:textColor="#ff0000"/>
+        android:layout_alignParentTop="true">
 
-</RelativeLayout>
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/angrylist"
+            android:layout_weight="1" />
+    </LinearLayout>

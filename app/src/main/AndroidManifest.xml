@@ -19,7 +19,10 @@
         </activity>
         <activity android:name=".annoyed_story" />
         <activity android:name=".angry_story" />
-        <activity android:name=".sad_story"></activity>
+        <activity android:name=".sad_story" />
+        <activity android:name=".happy" />
+        <activity android:name=".sad" />
+        <activity android:name=".angry"></activity>
     </application>
 
 </manifest>
