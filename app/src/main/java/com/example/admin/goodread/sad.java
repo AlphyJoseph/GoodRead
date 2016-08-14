@@ -12,5 +12,6 @@ public class sad extends AppCompatActivity {
         setContentView(R.layout.activity_sad);
 
         WebView browser = (WebView) findViewById(R.id.sadview);
+        browser.loadUrl("http://www.tutorialspoint.com");
     }
 }

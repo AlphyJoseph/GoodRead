@@ -12,5 +12,6 @@ public class happy extends AppCompatActivity {
         setContentView(R.layout.activity_happy);
 
         WebView browser = (WebView) findViewById(R.id.happyview);
+        browser.loadUrl("http://www.tutorialspoint.com");
     }
 }

@@ -11,6 +11,7 @@ public class angry extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_angry);
 
-        WebView browser = (WebView) findViewById(R.id.angryview);
+        WebView browser = (WebView)findViewById(R.id.angryview);
+        browser.loadUrl("http://www.tutorialspoint.com");
     }
 }
