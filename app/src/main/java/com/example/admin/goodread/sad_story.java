@@ -13,7 +13,7 @@ public class sad_story extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sad_story);
 
-        String[] sadopt={"option1","option2"};
+        String[] sadopt={"option1","option2","option3"};
         ListAdapter sadadpt= new ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1,sadopt);
         ListView sadlist=(ListView)findViewById(R.id.sadlist);
         sadlist.setAdapter(sadadpt);
