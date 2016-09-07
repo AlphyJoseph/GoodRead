@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
 
+
 public class angry extends AppCompatActivity {
 
     @Override
@@ -12,6 +13,6 @@ public class angry extends AppCompatActivity {
         setContentView(R.layout.activity_angry);
 
         WebView browser = (WebView)findViewById(R.id.angryview);
-        browser.loadUrl("http://www.tutorialspoint.com");
+
     }
 }
