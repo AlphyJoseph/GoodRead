@@ -22,8 +22,7 @@ import java.net.URL;
 public class api_main{
     public String apicall(String wattpad_api) throws ClientProtocolException,IOException
     {
-      /*  URL url = new URL( "https://api.wattpad.com:443/v4/stories?"+ "Authorizarion"="COmAsfoTl5bHFOoHoKl8uQCo12cA8sl2ytzk2RPu3uRB");
-        HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();*/
+
         HttpClient client= new DefaultHttpClient();
         HttpGet request = new HttpGet();
         request.setHeader("Authorization","COmAsfoTl5bHFOoHoKl8uQCo12cA8sl2ytzk2RPu3uRB");

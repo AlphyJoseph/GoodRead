@@ -13,6 +13,8 @@ public class angry_story extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        api_main M=new api_main();
+        M.apicall();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_angry_story);
 
