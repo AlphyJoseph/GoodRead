@@ -8,6 +8,10 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONTokener;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +24,7 @@ import java.net.URL;
  * Created by Alphy Joseph on 9/7/2016.
  */
 public class api_main{
-    public String apicall(String wattpad_api) throws ClientProtocolException,IOException
+    public String apicall() throws ClientProtocolException,IOException
     {
 
         HttpClient client= new DefaultHttpClient();
