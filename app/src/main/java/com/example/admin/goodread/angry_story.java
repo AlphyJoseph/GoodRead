@@ -23,19 +23,11 @@ public class angry_story extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_angry_story);
-    }
-    public void listfunc()throws IOException,JSONException {
-        api_main M = new api_main();
-        M.apicall();
-        String jsonstring="";
-        JSONObject object = (JSONObject) new JSONTokener(jsonstring).nextValue();
-        String requestID = object.getString("requestId");
 
-        JSONArray title = object.getJSONArray("title");
 
 
         /////////////////////////////
-        String[] angryopt = {"option1", "option2"};
+      /*  String[] angryopt = {"option1", "option2"};
         ListAdapter angryadpt = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, angryopt);
         ListView angrylist = (ListView) findViewById(R.id.angrylist);
         angrylist.setAdapter(angryadpt);
@@ -48,9 +40,10 @@ public class angry_story extends AppCompatActivity {
                         startActivity(clicked);
                     }
                 }
+    }
         );
-
+*/
     }
-    }
+    };
 
 
